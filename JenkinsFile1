@@ -3,8 +3,9 @@ new commit  pipeline{
         jdk 'myjava'
         maven 'mymaven131'
     }
-    //commit on github
+    //commit on github-- new one
     agent any
+    new ctsage added
     stages{
         stage('Checkout on git'){
             agent any
